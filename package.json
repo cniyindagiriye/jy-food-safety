@@ -1,0 +1,14 @@
+{
+  "name": "jy-food-safety",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch './**/*.go' --signal SIGTERM --exec 'go' run app/main.go"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
