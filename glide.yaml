@@ -1,0 +1,3 @@
+package: github.com/cniyindagiriye/jy-tutorials
+import:
+- package: github.com/last-ent/skelgor

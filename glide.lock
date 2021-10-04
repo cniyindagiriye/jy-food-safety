@@ -1,0 +1,6 @@
+hash: 6448bcd74790cf118d0f7ac095777bdddb4322945dbde0437509e8ddd43232dd
+updated: 2021-10-04T10:49:50.151614474+02:00
+imports:
+- name: github.com/last-ent/skelgor
+  version: c1d59ae9b17ee822639263b0477a6d1856445905
+testImports: []

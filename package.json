@@ -1,10 +1,11 @@
 {
-  "name": "jy-food-safety",
+  "name": "jy-tutorials",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch './**/*.go' --signal SIGTERM --exec 'go' run app/main.go"
+    "dev": "nodemon --watch './**/*.go' --signal SIGTERM --exec 'go' run well/main.go",
+    "test": "go test $(glide novendor)"
   },
   "author": "",
   "license": "ISC",
