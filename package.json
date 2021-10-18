@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --watch './**/*.go' --signal SIGTERM --exec 'go' run well/main.go",
-    "test": "go test $(glide novendor)"
+    "test": "go test -v $(glide novendor)"
   },
   "author": "",
   "license": "ISC",
